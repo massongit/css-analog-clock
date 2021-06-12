@@ -1,0 +1,39 @@
+.circle {
+    position: relative;
+    padding-top: 100%;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 50%;
+}
+
+.hand {
+    width: 3%;
+    height: 50%;
+    left: 48.5%;
+    top: 0;
+    position: absolute;
+    transform-origin: center bottom;
+    animation-iteration-count: infinite;
+}
+
+#second_hand {
+    width: 1%;
+    left: 49.5%;
+    background-color: red;
+    animation-name: second_rotation;
+    animation-duration: 60s;
+}
+
+#minute_hand {
+    background-color: green;
+    animation-name: minute_rotation;
+    animation-duration: 3600s;
+}
+
+#hour_hand {
+    height: 25%;
+    top: 25%;
+    background-color: blue;
+    animation-name: hour_rotation;
+    animation-duration: 216000s;
+}
